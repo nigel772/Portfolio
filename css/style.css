@@ -299,3 +299,28 @@ input.form-control.submit{
     grid-column-end: 3;
     
  }
+
+.inner{
+    padding-top: 20px;
+}
+.headers{
+    text-align: center;
+    margin-top: 15rem;    
+    position:relative;
+    bottom: 0;
+    left: 50%;
+    height: 4px;
+    width: 100px;
+    font-size: 11px;
+}
+.container{
+    margin-top: 10rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-gap: 1rem;
+    padding: 1rem 80px;
+    font-size: 1.2rem;
+}

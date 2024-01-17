@@ -41,7 +41,7 @@
     <form method="post" id="contact-form">
     <input type="text" name="name" class="form-control" placeholder="Yourr Name" required>
     <br>
-    <input type="text" name="email" class="form-control" placeholder="Your Email" required>
+    <input type="text" name="email" class="form-control" placeholder="Your Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
     <br>
 
         <textarea name="message" placeholder="Your Message" class="form-control" rows="4" required></textarea><br>
