@@ -11,7 +11,7 @@
             type="image/png"
     />
     <link
-            rel="preload"z
+            rel="preload"
             href="../assets/fonts/Mona-Sans.woff2"
             as="font"
             type="font/woff2"
