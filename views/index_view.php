@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="index, follow" />
+    <link rel="icon" href="../assets/images/Icon.webp" type="image/x-icon">
     <link
             rel="shortcut icon"
             href="../assets/images/favicons.png"
@@ -21,13 +22,13 @@
     <link rel="stylesheet" href="../assets/css/style.css"/>
     <script src="../assets/js/script.js" defer></script>
 
-    <title>Nigel Becholtz Portfolio</title>
+    <title>Nigel Becholtz</title>
 </head>
 
 <body>
 
 <script>
-    const theme = localStorage.getItem("theme") || "dark";
+    const theme = localStorage.getItem("theme") || "light";
     document.body.classList.add(theme);
 </script>
 
@@ -225,20 +226,14 @@
                     </p>
 
                 </div>
-                <form action="#" class="contact-form" netlify>
+                <form action="../Home/index.php" method="post" class="contact-form">
                     <div class="form-field">
                         <label for="name">Name</label>
                         <input type="text" name="name" id="name" required />
                     </div>
                     <div class="form-field">
                         <label for="email">Email</label>
-                        <input
-                                type="email"
-                                name="email"
-                                id="email"
-                                required
-                                inputmode="email"
-                        />
+                        <input type="email" name="email" id="email" required inputmode="email" />
                     </div>
                     <div class="form-field">
                         <label for="message">How can I help you?</label>
